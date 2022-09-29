@@ -64,4 +64,4 @@ multiple files.
 
 I tried as input files given from proffesors (100.txt, 50.txt, 10.txt).
 
-More analytical explanation of code can be found in README.txt
+More detailed explanation of code can be found in README.txt
