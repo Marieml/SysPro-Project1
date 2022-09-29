@@ -39,30 +39,29 @@ If the name of the file *Worker* reads is <filename>, then he creates a new file
 	- queue.c
 
 ### Compilation:
-    Type make to create executable sniffer
+Type make to create executable sniffer
 
 ### Execution:
-    * Run 
-    ```
-    ./sniffer
-    ```
-    with no arguments to listen current directory or
-    ```
-    ./sniffer -p <path>
-    ```
-    for given path
-
-	* Note: Before new execution make sure to clean by typing "make clean"
-	to delete .out files. Otherwise unlink fails when program is terminated.
-	I choose do it with make clean and not in program so user can execute
-	finder.sh afterwards too (before cleaning of course).
+* Run 
+```
+./sniffer
+```
+with no arguments to listen current directory or
+```
+./sniffer -p <path>
+```
+for given path
+* Note: Before new execution make sure to clean by typing "make clean"
+to delete .out files. Otherwise unlink fails when program is terminated.
+I choose do it with make clean and not in program so user can execute
+finder.sh afterwards too (before cleaning of course).
 
 ### System:
-    I run my program on Linux DIT, specially linux02.di.uoa.gr with 2 terminals,
-	one for execution of sniffer and an other one for moving. I tested to move files 
-    with command mv e.g "mv 100.txt <path>" for one file or "mv *.txt <path>" for 
-	multiple files.
+I run my program on Linux DIT, specially linux02.di.uoa.gr with 2 terminals,
+one for execution of sniffer and an other one for moving. I tested to move files 
+with command mv e.g "mv 100.txt <path>" for one file or "mv *.txt <path>" for 
+multiple files.
 
-	I tried as input files given from proffesors (100.txt, 50.txt, 10.txt).
+I tried as input files given from proffesors (100.txt, 50.txt, 10.txt).
 
 More analytical explanation of code can be found in README.txt
